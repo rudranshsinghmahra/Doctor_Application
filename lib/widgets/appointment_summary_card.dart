@@ -2,6 +2,7 @@ import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:awesome_dialog/awesome_dialog.dart';
+import 'package:url_launcher/url_launcher.dart';
 import '../services/firebase_services.dart';
 
 class AppointmentSummaryCard extends StatefulWidget {
@@ -15,6 +16,14 @@ class AppointmentSummaryCard extends StatefulWidget {
 
 class _AppointmentSummaryCardState extends State<AppointmentSummaryCard> {
   FirebaseServices services = FirebaseServices();
+
+  Future<void> _makePhoneCall(String phoneNumber) async {
+    final Uri launchUri = Uri(
+      scheme: 'tel',
+      path: phoneNumber,
+    );
+    await launchUrl(launchUri);
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -157,7 +166,10 @@ class _AppointmentSummaryCardState extends State<AppointmentSummaryCard> {
                                 style: ElevatedButton.styleFrom(
                                     shape: const StadiumBorder(),
                                     backgroundColor: Colors.grey.shade300),
-                                onPressed: () {},
+                                onPressed: () {
+                                  _makePhoneCall(
+                                      widget.documentSnapshot["customerPhone"]);
+                                },
                                 child: Padding(
                                   padding: const EdgeInsets.all(5.0),
                                   child: Row(
