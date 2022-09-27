@@ -1,0 +1,84 @@
+{
+  "project_info": {
+    "project_number": "599843032180",
+    "project_id": "doctor-appointment-booki-9cff2",
+    "storage_bucket": "doctor-appointment-booki-9cff2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:599843032180:android:2e4e7f7039d6f3ccd51521",
+        "android_client_info": {
+          "package_name": "com.rudransh.doctor_appointment_booking_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "599843032180-s1hqnelinsiejgfsv5g011ssbid411jn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.rudransh.doctor_appointment_booking_app",
+            "certificate_hash": "a06209f4eaddff43d02578e5e90a7baee8e29226"
+          }
+        },
+        {
+          "client_id": "599843032180-q1c5pu3pr2l5a3b9gvfdmhq54les4i5k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyApA_dL_JuPltpJsPhXQxLyBAad1Ag9jZ0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "599843032180-q1c5pu3pr2l5a3b9gvfdmhq54les4i5k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:599843032180:android:17c4a4e571b61cc6d51521",
+        "android_client_info": {
+          "package_name": "com.rudransh.doctors_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "599843032180-0ji2frkvs9kinqpvfb1f8bcll80sm0eg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.rudransh.doctors_app",
+            "certificate_hash": "a06209f4eaddff43d02578e5e90a7baee8e29226"
+          }
+        },
+        {
+          "client_id": "599843032180-q1c5pu3pr2l5a3b9gvfdmhq54les4i5k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyApA_dL_JuPltpJsPhXQxLyBAad1Ag9jZ0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "599843032180-q1c5pu3pr2l5a3b9gvfdmhq54les4i5k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
