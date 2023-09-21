@@ -1,5 +1,5 @@
 import 'dart:async';
-import 'package:chips_choice_null_safety/chips_choice_null_safety.dart';
+import 'package:chips_choice/chips_choice.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:doctors_app/provider.dart';
 import 'package:doctors_app/services/firebase_services.dart';
@@ -122,7 +122,7 @@ class _MainScreenState extends State<MainScreen> {
               value: (i, v) => i,
               label: (i, v) => v,
             ),
-            choiceStyle: const C2ChoiceStyle(color: Colors.green),
+            choiceStyle: const C2ChipStyle(backgroundColor: Colors.green)
           ),
           StreamBuilder<QuerySnapshot>(
             stream: service.appointments

@@ -43,7 +43,6 @@ dependencies:
   font_awesome_flutter:
   cloud_firestore:
   flutter_spinkit:
-  chips_choice_null_safety: ^2.0.6
   shimmer: ^2.0.0
   awesome_dialog: ^3.0.2
   fluttertoast:
@@ -52,6 +51,7 @@ dependencies:
   firebase_storage:
   url_launcher:
   sn_progress_dialog: ^1.1.3
+  chips_choice: ^3.0.1
 
 dev_dependencies:
   flutter_test:
